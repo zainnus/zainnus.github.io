@@ -1,0 +1,28 @@
+
+p {font-size: 40; font-family:fantasy}
+body {background-color:edf6f9;}
+a {font-size: 25; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+c {font-size:24; font-family:Georgia, 'Times New Roman', Times, serif}
+td {text-align: center; height: 20%; width:20%;font-size:30;font-family:Georgia, 'Times New Roman', Times, serif; color:909580;}
+li {font-size:20; font-family:'Times New Roman', Times, serif; color:rgb(55, 75, 90)}
+
+.tt {text-align:left;height: 20%; width:20%;font-size:30;font-family:Georgia, 'Times New Roman', Times, serif; color:909580; border: 2px solid;}
+.picc {width:300px}
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 0px 0px; /* 3 */
+    background: #cfd8dc; /* 4 */
+}
+nav h2 {
+    margin: 0px 0px;
+}
+nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+    margin: 0px 0px;
+}
+
+nav li {
+    padding-left: 1rem; /* 7! */
+}
